@@ -117,7 +117,7 @@ class Ui(QtWidgets.QMainWindow):
         try:
             with open("Output.txt", "r") as result:
                 txt = str(result.read())
-                self.txt_output.setText(txt)
+                self.ui.txt_output.setText(txt)
                 self.ui.btn_export.setEnabled(True)
         except Exception:
             show_message("Text file not found, try to convert again!", "Error")
