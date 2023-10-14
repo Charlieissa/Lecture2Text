@@ -8,14 +8,14 @@ It allows users to import mp3/mp4 videos and convert it to text file with an opt
 
 PDF Utility relies on the following dependencies:
 
-docx 
-moviepy
-pydub
-PyQt5
-PyQt5_sip
-PyQt5_sip
-python_docx
-SpeechRecognition
+docx <br/>
+moviepy <br/>
+pydub<br/>
+PyQt5<br/>
+PyQt5_sip<br/>
+PyQt5_sip<br/>
+python_docx<br/>
+SpeechRecognition<br/>
 
 
 **You can install these dependencies using pip:**
